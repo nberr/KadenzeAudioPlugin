@@ -10,7 +10,7 @@
 
 #include "KAPDelay.h"
 
-#include "JuceHeader.h"
+#include <JuceHeader.h>
 #include "KAPAudioHelpers.h"
 #include "KAPFxPanel.h"
 

@@ -17,8 +17,8 @@ KAPFxPanel::KAPFxPanel(KadenzeAudioPluginAudioProcessor *inProcessor)
 :   KAPPanelBase(inProcessor)
 {
     setSize(FX_PANEL_WIDTH, FX_PANEL_HEIGHT);
-    
-    KAPFxPanelStyle currentStyle = (KAPFxPanelStyle)*(mProcessor->parameters.getRawParameterValue(KAPParameterID[kParameter_DelayType]));
+    KAPFxPanelStyle currentStyle = kKAPFxPanelStyle_Delay;
+    //KAPFxPanelStyle currentStyle = *((KAPFxPanelStyle *)(mProcessor->parameters.getRawParameterValue(KAPParameterID[kParameter_DelayType])));
     setFxPanelStyle(currentStyle);
 }
 

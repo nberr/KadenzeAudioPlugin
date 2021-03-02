@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include "JuceHeader.h"
+#include <JuceHeader.h>
 
 #define PRESET_FILE_EXTENSION ".kpf"
 

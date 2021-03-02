@@ -10,7 +10,7 @@
 
 #include "KAPLfo.h"
 
-#include "JuceHeader.h"
+#include <JuceHeader.h>
 
 KAPLfo::KAPLfo()
 {

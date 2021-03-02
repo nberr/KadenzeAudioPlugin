@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include "../JuceLibraryCode/JuceHeader.h"
+#include <JuceHeader.h>
 #include "KAPGain.h"
 #include "KAPDelay.h"
 #include "KAPLfo.h"

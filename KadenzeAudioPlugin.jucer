@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="hMcuEd" name="KadenzeAudioPlugin" projectType="audioplug"
-              jucerVersion="5.4.4">
+              displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="QRUSnZ" name="KadenzeAudioPlugin">
     <GROUP id="{19C3A68A-6D56-95D8-7CE8-3BBB4C8A61AC}" name="Components">
       <FILE id="zWTRML" name="KAPVuMeter.cpp" compile="1" resource="0" file="Source/KAPVuMeter.cpp"/>

@@ -177,7 +177,7 @@ void KadenzeAudioPluginAudioProcessor::processBlock (AudioBuffer<float>& buffer,
                                 channelData,
                                 buffer.getNumSamples());
         
-        float rate = (channel == 0) ? *(parameters.getRawParameterValue(KAPParameterID[kParameter_ModulationRate])) : 0;
+        float rate = (channel == 0) ? (float)*(parameters.getRawParameterValue(KAPParameterID[kParameter_ModulationRate])) : 0;
         
         mLfo[channel]->process(rate,
                                *(parameters.getRawParameterValue(KAPParameterID[kParameter_ModulationDepth])),
